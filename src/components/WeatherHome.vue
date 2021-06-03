@@ -12,7 +12,7 @@
         <section class="today">
             <div class="weather_info">
                 <div class="main_info">
-                    <span>now, {{ timeFromUnix(getCrrInfo.dt) }}</span>
+                    <!-- <span>now, {{ timeFromUnix(getCrrInfo.dt) }}</span> -->
                     <h2>{{ getCity }}, {{ getCountryCode }}</h2>
                     <div class="description">
                         <div class="weather_icon">
